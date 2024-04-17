@@ -1,0 +1,295 @@
+
+body{
+    margin: 0;
+    font-family: 'poppins';
+    width: 100vw;
+  
+}
+
+.topSection{
+    display: flex;
+    flex-direction: row;
+    flex: 1 2;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.leftSide{
+    display: flex;
+    background-color: #C9A899;
+    width: 78%;
+ 
+
+}
+.leftSideContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 100px 0 100px;
+   
+    
+   
+}
+.rightSide{
+    
+    display: flex;
+    background-color: #FDFDFD;
+    /* flex:1; */
+    padding-top: 100px;
+}
+
+
+.topperText{
+    display: block;
+    margin-bottom: 180px;
+    margin-top: 180px;
+}
+.headerText{
+    font-size: 34px;
+    font-weight: 480;
+    font-family: 'poppins';
+    margin-bottom: 30px;
+}
+
+.subText{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'poppins';
+  
+    
+}
+.getStartedBtn{
+    min-height: 60px;
+    width: 200px; 
+    background-color: #2E2528;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 36px;
+}
+.getStartedBtn:hover{
+    opacity: 0.8;
+}
+
+.getStartedBtn:active{
+    opacity: 0.6;
+}
+
+
+
+.mainImg{
+    width: 85vh;
+    object-fit: cover;
+}
+
+.section1{
+    width: 100vw;
+    
+}
+.sec1Container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    row-gap: 60px; 
+    background: #C9A8991A;
+    padding: 60px;
+    
+    
+    
+}
+.secHederText{
+    width: 100vw;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.section2{
+    width: 100vw;
+    display: flex;
+    padding: 0 50px;
+    gap:30px;
+
+}
+.article{
+    
+    width: 100vw;
+    padding: 20px;
+    background-color: #C9A8991A;
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 500px;
+    margin-bottom: 10px;
+    
+}
+.title1{
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 500px;
+    margin-bottom: 10px;
+    
+}
+.title2{
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 500px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.description1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+.description2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+   
+}
+.description3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+   
+}
+.articleContainer1{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.reading{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: #844704;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.reading:active{
+    opacity: 0.8;
+}
+
+.arrow{
+    height:50px ;
+    width: 50px;
+}
+.articleImg{
+    height: auto;
+    max-width: 300px;
+}
+.articleCard{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #C9A8991A;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3{
+    width: 100vw;
+    padding: 50px;
+}
+.sec3Container{
+    
+    background-color: #C9A8991A;
+    padding: 30px;
+}
+.sec3Top{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.sec3Top1{
+    background-color: white;
+    padding: 30px;
+}
+
+.formSection{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:70vh;
+}
+.formContainer{
+    
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+
+.formTitle{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.formPart1{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.formLabel{
+    font-size: 16px;
+    font-weight: 400;
+}
+.inputBox{
+    border: 1px solid black;
+    height: 50px;
+    width:360px;
+}
+.formPart2{
+    width: 100%;
+    margin-top: 20px;
+}
+.inputBox2{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+}
+.inputBox3{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+.formPart3{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: flex-end;
+
+}
+.sendBtn{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2528;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.sendBtn:hover{
+    opacity: 0.8;
+}
+
+.sendBtn:active{
+    opacity: 0.6;
+}

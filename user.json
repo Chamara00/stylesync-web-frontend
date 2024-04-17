@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "8a6c",
+      "username": "nelunika nuwanthi",
+      "password": "sdegt&15",
+      "confirmPassword": "sdegt&15"
+    },
+    {
+      "id": "6314",
+      "username": "lahiru madhushan",
+      "email": "",
+      "password": "lahiru@123",
+      "confirmPassword": "lahiru@123"
+    },
+    {
+      "id": "b1cf",
+      "username": "nimka lakmali",
+      "email": "",
+      "password": "ghijk%145",
+      "confirmPassword": "ghijk%145"
+    }
+  ]
+}
